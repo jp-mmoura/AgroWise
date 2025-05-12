@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-gradient-to-br from-agro-green-50 to-white min-h-screen;
+    @apply bg-gradient-to-br from-agro-green-50 to-white min-h-screen m-0;
   }
 }
 
