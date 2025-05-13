@@ -4,6 +4,7 @@ import Register from './components/Register';
 import Dashboard from './components/Dashboard';
 import CadastrarProduto from './components/CadastrarProduto';
 import EscolhaPrincipioAtivo from './components/EscolhaPrincipioAtivo';
+import EscolhaCultura from './components/EscolhaCultura';
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/escolha-cultura" element={<EscolhaCultura />} />
         <Route path="/cadastrar-produto" element={<CadastrarProduto />} />
         <Route path="/escolha-principio-ativo" element={<EscolhaPrincipioAtivo />} />
         <Route path="/" element={<Navigate to="/login" replace />} />

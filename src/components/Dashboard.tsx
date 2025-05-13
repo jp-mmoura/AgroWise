@@ -26,7 +26,7 @@ export default function Dashboard() {
       <main className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div
-            onClick={() => navigate('/cadastrar-produto')}
+            onClick={() => navigate('/escolha-cultura')}
             className="card cursor-pointer hover:shadow-lg transition-shadow bg-white"
           >
             <div className="text-center">
@@ -40,7 +40,7 @@ export default function Dashboard() {
           </div>
 
           <div
-            onClick={() => navigate('/escolha-principio-ativo')}
+            onClick={() => navigate('/escolha-cultura')}
             className="card cursor-pointer hover:shadow-lg transition-shadow bg-white"
           >
             <div className="text-center">
