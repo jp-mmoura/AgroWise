@@ -26,6 +26,7 @@ export default {
   safelist: [
     'from-agro-green-50',
     'to-white',
+    'bg-gradient-to-br',
     'bg-agro-green-50',
     'bg-agro-green-100',
     'bg-agro-green-200',
